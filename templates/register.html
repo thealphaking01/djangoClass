@@ -1,0 +1,10 @@
+<h1>Registration Page</h1>
+
+<form action="/login/" method="POST">
+    {% csrf_token %}
+	Username: <input type="text" name="username">
+	Password: <input type="text" name="passwd">
+	Mobile No:<input type="text" name="mob">
+	<input type="submit">
+
+</form>
